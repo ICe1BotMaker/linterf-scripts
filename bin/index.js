@@ -1,7 +1,7 @@
 const { exec } = require(`child_process`);
 const chalk = require(`chalk`);
 
-const command = process.argv[2];
+const command = `build`;
 
 if (command === `build`) {
     console.log(`${chalk.gray(`┌`)} ${chalk.gray(`linterf-scripts`)} ▞ ${chalk.hex(`#00ADB5`)(command)} ${chalk.gray(`┐`)}`);
