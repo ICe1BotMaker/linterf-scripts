@@ -1,6 +1,6 @@
 {
     "name": "linterf-scripts",
-    "version": "1.1.0",
+    "version": "1.4.0",
     "description": "",
     "main": "index.js",
     "bin": {
@@ -9,17 +9,7 @@
     "author": "ice1",
     "license": "Apache-2.0",
     "dependencies": {
-        "babel": "^6.23.0",
         "chalk": "^4.1.2",
         "child_process": "^1.0.2"
-    },
-    "devDependencies": {
-        "@babel/cli": "^7.23.0",
-        "@babel/core": "^7.23.2",
-        "@babel/plugin-syntax-jsx": "^7.22.5",
-        "@babel/plugin-transform-react-jsx": "^7.22.15",
-        "@babel/preset-env": "^7.23.2",
-        "@babel/preset-react": "^7.22.15",
-        "@types/ascii-art": "^1.4.3"
     }
 }
