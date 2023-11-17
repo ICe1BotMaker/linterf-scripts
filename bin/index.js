@@ -8,7 +8,7 @@ if (command === `build`) {
 
     console.log(`${chalk.gray(`└┄>`)} build start`);
 
-    exec(`npx babel .\\ --out-dir ${__dirname.replace(`\\bin`, ``)}\\build`, { cwd: `./` }, (error) => {
+    exec(`npx babel .\\ --out-dir .\\build`, { cwd: `./` }, (error) => {
         if (!error) console.log(`${chalk.gray(`└┄>`)} success.`);
     });
 }
